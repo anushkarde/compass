@@ -6,6 +6,9 @@ Minimal Next.js App Router app with a search interface and SQLite backend.
 
 ```bash
 npm install
+# create/update .env.local with your API key
+cp -n .env.example .env.local || true
+# then edit .env.local and set PARALLEL_API_KEY
 npm run dev
 ```
 
